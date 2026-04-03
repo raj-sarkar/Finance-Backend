@@ -41,3 +41,9 @@ This backend application handles secure data processing and access control for f
     npm start
     ```
 2. Access the API at `http://localhost:PORT`.
+
+3. Make a admin:
+    ```
+    node seedAdmin.js
+    ```
+    This makes an admin user so that you can assign roles to other users
